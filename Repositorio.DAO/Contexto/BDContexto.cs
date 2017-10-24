@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repositorio.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -10,8 +11,11 @@ namespace Repositorio.DAO.Contexto
     public class BDContexto : DbContext
     {
         public BDContexto()
-            
+
             : base("JMSOFT") { }
+
+        public DbSet<A22> A22 { get; set; }
+        public DbSet<A23> A23 { get; set; }
 
 
     }
