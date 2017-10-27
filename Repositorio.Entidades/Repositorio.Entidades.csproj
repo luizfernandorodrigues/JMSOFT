@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="A22.cs" />
     <Compile Include="A23.cs" />
+    <Compile Include="A24.cs" />
+    <Compile Include="A25.cs" />
     <Compile Include="GeraGuid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

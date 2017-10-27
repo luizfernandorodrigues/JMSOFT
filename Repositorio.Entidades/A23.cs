@@ -53,5 +53,7 @@ namespace Repositorio.Entidades
         public Guid A22_ukey { get => a22_ukey; set => a22_ukey = value; }
 
         public A22 A22 { get => a22; set => a22 = value; }
+
+        public ICollection<A24> A24 { get; set; }
     }
 }
