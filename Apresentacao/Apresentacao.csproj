@@ -52,16 +52,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -71,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -97,6 +108,64 @@
       <Project>{765dbc39-378f-46a1-8d83-110b17428a35}</Project>
       <Name>Repositorio.Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\Add Image_25px.png" />
+    <Content Include="Imagens\Add List_15px.png" />
+    <Content Include="Imagens\Add List_25px.png" />
+    <Content Include="Imagens\Add Shopping Cart_25px.png" />
+    <Content Include="Imagens\Add Shopping Cart_25px_1.png" />
+    <Content Include="Imagens\Air Pilot Hat_25px_1.png" />
+    <Content Include="Imagens\banknotes_25px.png" />
+    <Content Include="Imagens\Book Stack_25px.png" />
+    <Content Include="Imagens\Box_25px.png" />
+    <Content Include="Imagens\Buy_25px_5.png" />
+    <Content Include="Imagens\card_in_use_25px.png" />
+    <Content Include="Imagens\Checked Checkbox_25px.png" />
+    <Content Include="Imagens\Circled Right 2_15px.png" />
+    <Content Include="Imagens\curriculum_25px.png" />
+    <Content Include="Imagens\Delete Property_15px.png" />
+    <Content Include="Imagens\Delete_25px.png" />
+    <Content Include="Imagens\document_25px_1.png" />
+    <Content Include="Imagens\Down 2_25px.png" />
+    <Content Include="Imagens\Down 3_25px.png" />
+    <Content Include="Imagens\Edit Property_15px.png" />
+    <Content Include="Imagens\Edit_25px.png" />
+    <Content Include="Imagens\Exit_25px.png" />
+    <Content Include="Imagens\Globe_25px.png" />
+    <Content Include="Imagens\Handshake_25px.png" />
+    <Content Include="Imagens\Invert Selection_25px.png" />
+    <Content Include="Imagens\jmti.ico" />
+    <Content Include="Imagens\key_security_25px.png" />
+    <Content Include="Imagens\Library_25px.png" />
+    <Content Include="Imagens\Long Arrow Left_25px.png" />
+    <Content Include="Imagens\Long Arrow Right_25px.png" />
+    <Content Include="Imagens\Manager_25px.png" />
+    <Content Include="Imagens\Map Marker_25px.png" />
+    <Content Include="Imagens\Marker_25px.png" />
+    <Content Include="Imagens\Message_25px.png" />
+    <Content Include="Imagens\Move by Trolley_25px.png" />
+    <Content Include="Imagens\MS Excel_25px_1.png" />
+    <Content Include="Imagens\Organization_25px.png" />
+    <Content Include="Imagens\Page Overview _15px.png" />
+    <Content Include="Imagens\Permanent Job_25px.png" />
+    <Content Include="Imagens\PesquiAarch_25px.png" />
+    <Content Include="Imagens\PesquisaSearch_25px.png" />
+    <Content Include="Imagens\Plus_25px.png" />
+    <Content Include="Imagens\Point Objects_25px.png" />
+    <Content Include="Imagens\Purchase Order_25px.png" />
+    <Content Include="Imagens\Report Card_25px.png" />
+    <Content Include="Imagens\Rotate Left_25px.png" />
+    <Content Include="Imagens\Save_25px.png" />
+    <Content Include="Imagens\Search_15px_1.png" />
+    <Content Include="Imagens\Search_25px.png" />
+    <Content Include="Imagens\Sorting Arrows_25px.png" />
+    <Content Include="Imagens\Stack_25px.png" />
+    <Content Include="Imagens\Unchecked Checkbox_25px.png" />
+    <Content Include="Imagens\Uninstalling Updates_25px_1.png" />
+    <Content Include="Imagens\US Dollar_25px.png" />
+    <Content Include="Imagens\Warehouse_25px.png" />
+    <Content Include="Imagens\Worldwide Location_25px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
