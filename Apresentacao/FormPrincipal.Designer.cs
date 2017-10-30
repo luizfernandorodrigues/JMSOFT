@@ -53,11 +53,6 @@
             this.sérieDeNotasFiscaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logradouroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cepToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.estadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.paisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,6 +78,25 @@
             this.transferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimentoDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logradouroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cepToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.paisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.statusStripFormPrincipal.SuspendLayout();
             this.menuStripPrincipal.SuspendLayout();
             this.SuspendLayout();
@@ -111,7 +125,8 @@
             this.contasAReceberToolStripMenuItem,
             this.contasAPagarToolStripMenuItem,
             this.estoqueToolStripMenuItem,
-            this.bancoToolStripMenuItem});
+            this.bancoToolStripMenuItem,
+            this.sairToolStripMenuItem});
             this.menuStripPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuStripPrincipal.Name = "menuStripPrincipal";
             this.menuStripPrincipal.Size = new System.Drawing.Size(948, 24);
@@ -130,14 +145,23 @@
             this.dependendesToolStripMenuItem,
             this.toolStripSeparator2,
             this.cadastroDeVeículoToolStripMenuItem,
+            this.toolStripSeparator5,
             this.tabelaDeIRRFToolStripMenuItem,
+            this.toolStripSeparator7,
             this.tiposDeDocumentoToolStripMenuItem,
+            this.toolStripSeparator8,
             this.numeraçãoSequencialToolStripMenuItem,
+            this.toolStripSeparator10,
             this.tipoDeEntradaESaídaToolStripMenuItem,
+            this.toolStripSeparator11,
             this.sérieDeNotasFiscaisToolStripMenuItem,
+            this.toolStripSeparator9,
             this.empresaToolStripMenuItem,
+            this.toolStripSeparator6,
             this.cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem,
-            this.logradouroToolStripMenuItem});
+            this.toolStripSeparator12,
+            this.logradouroToolStripMenuItem,
+            this.toolStripSeparator13});
             this.cadastrosIniciaisToolStripMenuItem.Name = "cadastrosIniciaisToolStripMenuItem";
             this.cadastrosIniciaisToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.cadastrosIniciaisToolStripMenuItem.Text = "Cadastros Iniciais";
@@ -262,44 +286,6 @@
             this.cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem.Name = "cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem";
             this.cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.cadastroDeBandeiraDeCartaãoDeCreditoToolStripMenuItem.Text = "Cadastro de Bandeira de Cartaão de Credito";
-            // 
-            // logradouroToolStripMenuItem
-            // 
-            this.logradouroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cepToolStripMenuItem,
-            this.cidadeToolStripMenuItem,
-            this.estadoToolStripMenuItem,
-            this.paisToolStripMenuItem});
-            this.logradouroToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Map_Marker_25px;
-            this.logradouroToolStripMenuItem.Name = "logradouroToolStripMenuItem";
-            this.logradouroToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
-            this.logradouroToolStripMenuItem.Text = "Logradouro";
-            // 
-            // cepToolStripMenuItem
-            // 
-            this.cepToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Marker_25px;
-            this.cepToolStripMenuItem.Name = "cepToolStripMenuItem";
-            this.cepToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cepToolStripMenuItem.Text = "Cep";
-            // 
-            // cidadeToolStripMenuItem
-            // 
-            this.cidadeToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Point_Objects_25px;
-            this.cidadeToolStripMenuItem.Name = "cidadeToolStripMenuItem";
-            this.cidadeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cidadeToolStripMenuItem.Text = "Cidade";
-            // 
-            // estadoToolStripMenuItem
-            // 
-            this.estadoToolStripMenuItem.Name = "estadoToolStripMenuItem";
-            this.estadoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.estadoToolStripMenuItem.Text = "Estado";
-            // 
-            // paisToolStripMenuItem
-            // 
-            this.paisToolStripMenuItem.Name = "paisToolStripMenuItem";
-            this.paisToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.paisToolStripMenuItem.Text = "País";
             // 
             // vendasToolStripMenuItem
             // 
@@ -475,6 +461,120 @@
             this.movimentoDeChequeToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.movimentoDeChequeToolStripMenuItem.Text = "Movimento de Cheque";
             // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // logradouroToolStripMenuItem
+            // 
+            this.logradouroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cepToolStripMenuItem,
+            this.toolStripSeparator14,
+            this.cidadeToolStripMenuItem,
+            this.toolStripSeparator16,
+            this.estadoToolStripMenuItem,
+            this.toolStripSeparator15,
+            this.paisToolStripMenuItem,
+            this.toolStripSeparator17});
+            this.logradouroToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Map_Marker_25px;
+            this.logradouroToolStripMenuItem.Name = "logradouroToolStripMenuItem";
+            this.logradouroToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
+            this.logradouroToolStripMenuItem.Text = "Logradouro";
+            // 
+            // cepToolStripMenuItem
+            // 
+            this.cepToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Marker_25px;
+            this.cepToolStripMenuItem.Name = "cepToolStripMenuItem";
+            this.cepToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cepToolStripMenuItem.Text = "Cep";
+            // 
+            // cidadeToolStripMenuItem
+            // 
+            this.cidadeToolStripMenuItem.Image = global::Apresentacao.Properties.Resources.Point_Objects_25px;
+            this.cidadeToolStripMenuItem.Name = "cidadeToolStripMenuItem";
+            this.cidadeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cidadeToolStripMenuItem.Text = "Cidade";
+            // 
+            // estadoToolStripMenuItem
+            // 
+            this.estadoToolStripMenuItem.Name = "estadoToolStripMenuItem";
+            this.estadoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.estadoToolStripMenuItem.Text = "Estado";
+            // 
+            // paisToolStripMenuItem
+            // 
+            this.paisToolStripMenuItem.Name = "paisToolStripMenuItem";
+            this.paisToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.paisToolStripMenuItem.Text = "País";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(301, 6);
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator17
+            // 
+            this.toolStripSeparator17.Name = "toolStripSeparator17";
+            this.toolStripSeparator17.Size = new System.Drawing.Size(149, 6);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -553,5 +653,19 @@
         private System.Windows.Forms.ToolStripMenuItem cidadeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paisToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
     }
 }

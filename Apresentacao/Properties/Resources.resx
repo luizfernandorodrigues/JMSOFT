@@ -118,169 +118,178 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Add Image_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Add Image_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add List_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Add List_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add List_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Add List_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add Shopping Cart_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Add Shopping Cart_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add Shopping Cart_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Add Shopping Cart_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Air Pilot Hat_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Air Pilot Hat_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="banknotes_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\banknotes_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Book Stack_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Book Stack_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Box_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Box_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Buy_25px_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Buy_25px_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="card_in_use_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\card_in_use_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Checked Checkbox_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Checked Checkbox_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Circled Right 2_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Circled Right 2_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="curriculum_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\curriculum_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Delete Property_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Delete Property_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Delete_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Delete_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="document_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\document_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Down 2_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Down 2_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Down 3_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Down 3_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Edit Property_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Edit Property_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Edit_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Edit_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Exit_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Exit_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Globe_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Globe_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Handshake_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Handshake_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Invert Selection_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Invert Selection_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="key_security_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\key_security_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Library_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Library_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Long Arrow Left_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Long Arrow Left_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Long Arrow Right_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Long Arrow Right_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Warehouse_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Warehouse_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Manager_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Manager_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Worldwide Location_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Worldwide Location_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Map Marker_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Map Marker_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Marker_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Marker_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sorting Arrows_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Sorting Arrows_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Message_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Message_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Add Shopping Cart_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Add Shopping Cart_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Move by Trolley_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Move by Trolley_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MS Excel_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\MS Excel_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Organization_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Organization_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Page Overview _15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Page Overview _15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Permanent Job_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Permanent Job_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PesquiAarch_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\PesquiAarch_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Invert Selection_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Invert Selection_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PesquisaSearch_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\PesquisaSearch_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Long Arrow Left_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Long Arrow Left_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Plus_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Plus_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Point Objects_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Point Objects_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Delete_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Delete_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Purchase Order_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Purchase Order_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Edit Property_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Edit Property_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Report Card_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Report Card_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="unlock_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\unlock_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rotate Left_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Rotate Left_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Save_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Save_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Search_15px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Search_15px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Search_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Search_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sorting Arrows_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Sorting Arrows_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Stack_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Stack_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PesquiAarch_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PesquiAarch_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Unchecked Checkbox_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Unchecked Checkbox_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Uninstalling Updates_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Uninstalling Updates_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Book Stack_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Book Stack_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add Image_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Add Image_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Exit_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_security_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\key_security_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down 2_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Down 2_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MS Excel_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\MS Excel_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Point Objects_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Point Objects_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stack_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Stack_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Air Pilot Hat_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Air Pilot Hat_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Message_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Save_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circled Right 2_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Circled Right 2_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Permanent Job_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Permanent Job_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add List_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Add List_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="card_in_use_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\card_in_use_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purchase Order_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Purchase Order_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Page Overview _15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Page Overview _15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\document_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add List_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Add List_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Box_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_15px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Search_15px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add Shopping Cart_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Add Shopping Cart_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Search_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="US Dollar_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\US Dollar_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Warehouse_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Warehouse_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Globe_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Globe_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Worldwide Location_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\Worldwide Location_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Delete Property_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Delete Property_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buy_25px_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Buy_25px_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handshake_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Handshake_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Move by Trolley_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Move by Trolley_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down 3_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Down 3_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rotate Left_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Rotate Left_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curriculum_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\curriculum_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uninstalling Updates_25px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Uninstalling Updates_25px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Organization_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Organization_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checked Checkbox_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Checked Checkbox_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marker_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Marker_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Library_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banknotes_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\banknotes_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report Card_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Report Card_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_round_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\right_round_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_round_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\left_round_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -30,7 +30,7 @@ namespace Repositorio.Entidades
         public string A24_001_c { get => a24_001_c; set => a24_001_c = value; }
 
         [Column(TypeName = "nvarchar")]
-        [Required(ErrorMessage = "DDD da Cidade")]
+        [Required(ErrorMessage = "DDD da Cidade é obrigatório")]
         [Display(Name = "DDD")]
         [StringLength(3, MinimumLength = 3, ErrorMessage = "Campo DDD deve conter no mínimo 3 caracter e no máximo 3 caracteres")]
         public string A24_002_c { get => a24_002_c; set => a24_002_c = value; }

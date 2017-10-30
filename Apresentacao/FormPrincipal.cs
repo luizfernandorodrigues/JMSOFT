@@ -23,6 +23,22 @@ namespace Apresentacao
             this.toolStripStatusLabel1.Text = Utils.VERSAO;
         }
 
-        
+        /// <summary>
+        /// Função do botão sair, exibe uma mensagem para o usuário se deseja reamente sair do sistema, caso resultado seja sim 
+        /// a aplicação é fechada.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult mensagem = MessageBox.Show("Deseja Realmente Sair do Sistema?", Utils.TITULO, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (mensagem == DialogResult.No)
+            {
+                return;
+            }
+
+            Application.Exit();
+        }
     }
 }

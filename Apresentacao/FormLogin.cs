@@ -22,8 +22,8 @@ namespace Apresentacao
         private void button1_Click(object sender, EventArgs e)
         {
             A22 a22 = new A22();
-            a22.A22_001_c = textBox1.Text;
-            a22.A22_002_c = textBox2.Text;
+            a22.A22_001_c = textBoxUsuario.Text;
+            a22.A22_002_c = textBoxSenha.Text;
            
             a22.Timestamp = DateTime.Now;
             a22.A23 = null;

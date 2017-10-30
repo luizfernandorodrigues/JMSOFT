@@ -323,6 +323,16 @@ namespace Apresentacao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap left_round_25px {
+            get {
+                object obj = ResourceManager.GetObject("left_round_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Library_25px {
             get {
                 object obj = ResourceManager.GetObject("Library_25px", resourceCulture);
@@ -503,6 +513,16 @@ namespace Apresentacao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap right_round_25px {
+            get {
+                object obj = ResourceManager.GetObject("right_round_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rotate_Left_25px {
             get {
                 object obj = ResourceManager.GetObject("Rotate Left_25px", resourceCulture);
@@ -576,6 +596,16 @@ namespace Apresentacao.Properties {
         internal static System.Drawing.Bitmap Uninstalling_Updates_25px_1 {
             get {
                 object obj = ResourceManager.GetObject("Uninstalling Updates_25px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unlock_25px {
+            get {
+                object obj = ResourceManager.GetObject("unlock_25px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

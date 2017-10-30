@@ -1,0 +1,7 @@
+- criar objetos usuário -ok
+- elaborar tabela no banco de dados de usuario - ok
+- criar login no sistema
+- colocar separadar entre os menus do form principal
+- criar tela de cadastro de país
+- criar tela de pesquisa de país
+- criar tela de cadastro padrão

@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +146,7 @@
     <Content Include="Imagens\Invert Selection_25px.png" />
     <Content Include="Imagens\jmti.ico" />
     <Content Include="Imagens\key_security_25px.png" />
+    <None Include="Imagens\left_round_25px.png" />
     <Content Include="Imagens\Library_25px.png" />
     <Content Include="Imagens\Long Arrow Left_25px.png" />
     <Content Include="Imagens\Long Arrow Right_25px.png" />
@@ -155,6 +165,7 @@
     <Content Include="Imagens\Point Objects_25px.png" />
     <Content Include="Imagens\Purchase Order_25px.png" />
     <Content Include="Imagens\Report Card_25px.png" />
+    <None Include="Imagens\right_round_25px.png" />
     <Content Include="Imagens\Rotate Left_25px.png" />
     <Content Include="Imagens\Save_25px.png" />
     <Content Include="Imagens\Search_15px_1.png" />
@@ -163,6 +174,7 @@
     <Content Include="Imagens\Stack_25px.png" />
     <Content Include="Imagens\Unchecked Checkbox_25px.png" />
     <Content Include="Imagens\Uninstalling Updates_25px_1.png" />
+    <None Include="Imagens\unlock_25px.png" />
     <Content Include="Imagens\US Dollar_25px.png" />
     <Content Include="Imagens\Warehouse_25px.png" />
     <Content Include="Imagens\Worldwide Location_25px.png" />
