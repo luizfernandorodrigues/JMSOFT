@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelUsuario = new System.Windows.Forms.Label();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
             this.labelSenha = new System.Windows.Forms.Label();
@@ -37,6 +38,7 @@
             this.labelServidorEmail = new System.Windows.Forms.Label();
             this.labelSenhaEmail = new System.Windows.Forms.Label();
             this.textBoxUsuario = new System.Windows.Forms.TextBox();
+            this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBoxNomeUsuario = new System.Windows.Forms.TextBox();
             this.textBoxSenha = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
@@ -48,6 +50,7 @@
             this.checkBoxSsl = new System.Windows.Forms.CheckBox();
             this.panelControles.SuspendLayout();
             this.panelNavegacao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).BeginInit();
             this.groupBoxConfiguracaoEmail.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -190,14 +193,20 @@
             // 
             // textBoxUsuario
             // 
+            this.textBoxUsuario.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Login", true));
             this.textBoxUsuario.Enabled = false;
             this.textBoxUsuario.Location = new System.Drawing.Point(94, 101);
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(474, 20);
             this.textBoxUsuario.TabIndex = 1;
             // 
+            // usuarioBindingSource
+            // 
+            this.usuarioBindingSource.DataSource = typeof(Repositorio.Entidades.Usuario);
+            // 
             // textBoxNomeUsuario
             // 
+            this.textBoxNomeUsuario.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Nome", true));
             this.textBoxNomeUsuario.Enabled = false;
             this.textBoxNomeUsuario.Location = new System.Drawing.Point(94, 129);
             this.textBoxNomeUsuario.Name = "textBoxNomeUsuario";
@@ -206,6 +215,7 @@
             // 
             // textBoxSenha
             // 
+            this.textBoxSenha.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Senha", true));
             this.textBoxSenha.Enabled = false;
             this.textBoxSenha.Location = new System.Drawing.Point(94, 157);
             this.textBoxSenha.Name = "textBoxSenha";
@@ -215,6 +225,7 @@
             // 
             // textBoxEmail
             // 
+            this.textBoxEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Email", true));
             this.textBoxEmail.Enabled = false;
             this.textBoxEmail.Location = new System.Drawing.Point(94, 13);
             this.textBoxEmail.Name = "textBoxEmail";
@@ -223,6 +234,7 @@
             // 
             // textBoxSenhaEmail
             // 
+            this.textBoxSenhaEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "SenhaEmail", true));
             this.textBoxSenhaEmail.Enabled = false;
             this.textBoxSenhaEmail.Location = new System.Drawing.Point(94, 41);
             this.textBoxSenhaEmail.Name = "textBoxSenhaEmail";
@@ -232,6 +244,7 @@
             // 
             // textBoxPortaSmtp
             // 
+            this.textBoxPortaSmtp.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Porta", true));
             this.textBoxPortaSmtp.Enabled = false;
             this.textBoxPortaSmtp.Location = new System.Drawing.Point(448, 69);
             this.textBoxPortaSmtp.Name = "textBoxPortaSmtp";
@@ -240,6 +253,7 @@
             // 
             // textBoxServidorEmail
             // 
+            this.textBoxServidorEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "ServidorEmail", true));
             this.textBoxServidorEmail.Enabled = false;
             this.textBoxServidorEmail.Location = new System.Drawing.Point(94, 69);
             this.textBoxServidorEmail.Name = "textBoxServidorEmail";
@@ -248,6 +262,7 @@
             // 
             // textBoxUsuarioEmail
             // 
+            this.textBoxUsuarioEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "UsuarioEmail", true));
             this.textBoxUsuarioEmail.Enabled = false;
             this.textBoxUsuarioEmail.Location = new System.Drawing.Point(94, 97);
             this.textBoxUsuarioEmail.Name = "textBoxUsuarioEmail";
@@ -278,6 +293,7 @@
             // 
             this.checkBoxSsl.AutoSize = true;
             this.checkBoxSsl.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBoxSsl.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.usuarioBindingSource, "Ssl", true));
             this.checkBoxSsl.Location = new System.Drawing.Point(517, 71);
             this.checkBoxSsl.Name = "checkBoxSsl";
             this.checkBoxSsl.Size = new System.Drawing.Size(49, 17);
@@ -311,6 +327,7 @@
             this.Controls.SetChildIndex(this.textBox1, 0);
             this.panelControles.ResumeLayout(false);
             this.panelNavegacao.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
             this.groupBoxConfiguracaoEmail.ResumeLayout(false);
             this.groupBoxConfiguracaoEmail.PerformLayout();
             this.ResumeLayout(false);
@@ -338,5 +355,6 @@
         private System.Windows.Forms.TextBox textBoxUsuarioEmail;
         private System.Windows.Forms.GroupBox groupBoxConfiguracaoEmail;
         private System.Windows.Forms.CheckBox checkBoxSsl;
+        private System.Windows.Forms.BindingSource usuarioBindingSource;
     }
 }

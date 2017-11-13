@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CryptSharp;
 
 namespace Apresentacao
 {
@@ -38,7 +39,7 @@ namespace Apresentacao
         /// os campos e desabilita os botões desnecessarios para o estado de inclusão
         /// </summary>
         /// <param name="ctrl"></param>
-        public static void HabilitaCamposNovo(Control ctrl)
+        public static void habilitaCamposNovos(Control ctrl)
         {
             foreach (Control c in ctrl.Controls)
             {
@@ -76,7 +77,7 @@ namespace Apresentacao
                 }
                 if (c.HasChildren)
                 {
-                    HabilitaCamposNovo(c);
+                    habilitaCamposNovos(c);
                 }
             }
             desabilitaBotoesNovo(ctrl);
@@ -135,6 +136,130 @@ namespace Apresentacao
                     desabilitaBotoesNovo(c);
                 }
             }
+        }
+
+        /// <summary>
+        /// Função para desabilitar os campos quando clicar no botão salvar
+        /// </summary>
+        /// <param name="ctrl"></param>
+        public static void desabilitaCamposNovo(Control ctrl)
+        {
+            foreach (Control c in ctrl.Controls)
+            {
+                if (c is NumericUpDown)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is CheckBox)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is DateTimePicker)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is TextBox)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is RadioButton)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is ComboBox)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is MaskedTextBox)
+                {
+                    c.Enabled = false;
+                }
+                else if (c is Button)
+                {
+                    c.Enabled = false;
+                }
+                if (c.HasChildren)
+                {
+                    desabilitaCamposNovo(c);
+                }
+            }
+            desabilitaBotoesNovo(ctrl);
+        }
+
+        /// <summary>
+        /// Função para habilitar botões depois que clicar em salvar no modo de inclusão e alteração
+        /// </summary>
+        /// <param name="ctr"></param>
+        public static void habilitaBotoesNovo(Control ctr)
+        {
+            foreach (Control c in ctr.Controls)
+            {
+                if (c is Button && c.Name.Equals("buttonExcluir"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonSair"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonPesquisa"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonProximo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonUltimo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonAnterior"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonPrimeiro"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonNovo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonEditar"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonRelatorio"))
+                {
+                    c.Enabled = true;
+                }
+                if (c.HasChildren)
+                {
+                    habilitaBotoesNovo(c);
+                }
+            }
+        }
+
+        /// <summary>
+        /// função para criar senha criptografada, recebe a senha como string e retorna o hash como string para armazenar no banco
+        /// </summary>
+        /// <param name="senha"></param>
+        /// <returns></returns>
+        public static string codificaSenha(string senha)
+        {
+            return Crypter.MD5.Crypt(senha);
+        }
+
+        /// <summary>
+        /// Função para comparar senha, recebe o hash referente ao usuário e a senha informada return true ou false
+        /// </summary>
+        /// <param name="senha"></param>
+        /// <param name="hash"></param>
+        /// <returns></returns>
+        public static bool compara(string senha, string hash)
+        {
+            return Crypter.CheckPassword(senha, hash);
         }
     }
 

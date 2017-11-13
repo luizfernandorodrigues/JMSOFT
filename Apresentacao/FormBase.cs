@@ -36,7 +36,7 @@ namespace Apresentacao
 
         private void buttonNovo_Click(object sender, EventArgs e)
         {
-            Utils.HabilitaCamposNovo(this);
+            Utils.desabilitaCamposNovo(this);
         }
 
         private void buttonSair_Click(object sender, EventArgs e)

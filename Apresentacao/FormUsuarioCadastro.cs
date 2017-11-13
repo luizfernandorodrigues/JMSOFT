@@ -25,19 +25,26 @@ namespace Apresentacao
 
         private void buttonNovo_Click(object sender, EventArgs e)
         {
-
+            Utils.habilitaCamposNovos(this);
+            Utils.desabilitaBotoesNovo(this);
         }
 
+        /// <summary>
+        /// função que preenche as propriedades do objeto para inserção no banco de dados.
+        /// </summary>
         private void novo()
         {
             flag = 1;
+
+
+
             Usuario usuario = new Usuario();
             usuario.Email = textBoxEmail.Text;
             usuario.Login = textBoxUsuario.Text;
             usuario.Nome = textBoxNomeUsuario.Text;
             usuario.Porta = textBoxPortaSmtp.Text;
-            usuario.Senha = textBoxSenha.Text;
-            usuario.SenhaEmail = textBoxSenhaEmail.Text;
+            usuario.Senha = Utils.codificaSenha(textBoxSenha.Text);
+            usuario.SenhaEmail = Utils.codificaSenha(textBoxSenhaEmail.Text);
             usuario.ServidorEmail = textBoxServidorEmail.Text;
 
             if (checkBoxSsl.Checked)
@@ -60,12 +67,6 @@ namespace Apresentacao
                 user.Adicionar(usuario);
                 user.SalvarTodos();
             }
-
-           
-
-            //user.adicionar(usuario);
-
-
         }
 
         private void buttonSalvar_Click(object sender, EventArgs e)
@@ -76,13 +77,15 @@ namespace Apresentacao
                 {
                     novo();
                     MessageBox.Show(Utils.MENSAGEM_SUCESSO, Utils.TITULO, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Utils.desabilitaCamposNovo(this);
+                    Utils.habilitaBotoesNovo(this);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(Utils.MENSAGEM_ERRO + ex.ToString(), Utils.TITULO, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Console.WriteLine(ex.Data);
                     return;
-                    
+
                 }
             }
         }
