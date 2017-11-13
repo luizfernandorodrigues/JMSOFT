@@ -55,7 +55,7 @@ namespace Repositorio.Entidades
         public DateTime Timestamp { get => timestamp; set => timestamp = value; }
 
         [ForeignKey("A23")]
-        public Guid A23_ukey { get => A23_ukey; set => A23_ukey = value; }
+        public Guid A23_ukey { get => a23_ukey; set => a23_ukey = value; }
         public A23 A23 { get => a23; set => a23 = value; }
 
         public ICollection<A25> A25 { get; set; }

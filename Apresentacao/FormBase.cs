@@ -24,7 +24,24 @@ namespace Apresentacao
             toolTipFormBase.SetToolTip(buttonEditar, Utils.BOTAO_EDITAR);
             toolTipFormBase.SetToolTip(buttonExcluir, Utils.BOTAO_EXCLUIR);
             toolTipFormBase.SetToolTip(buttonNovo, Utils.BOTAO_NOVO);
-            toolTipFormBase.SetToolTip(buttonPesquisa, Utils.BOTAO_pesq);
+            toolTipFormBase.SetToolTip(buttonProximo, Utils.BOTAO_PROXIMO);
+            toolTipFormBase.SetToolTip(buttonSair, Utils.BOTAO_SAIR);
+            toolTipFormBase.SetToolTip(buttonSalvar, Utils.BOTAO_SALVAR);
+            toolTipFormBase.SetToolTip(buttonUltimo, Utils.BOTAO_ULTIMO);
+            toolTipFormBase.SetToolTip(buttonPrimeiro, Utils.BOTAO_PRIMEIRO);
+            toolTipFormBase.SetToolTip(buttonRelatorio, Utils.BOTAO_RELATORIO);
+            toolTipFormBase.SetToolTip(buttonPesquisa, Utils.BOTAO_PESQUISA);
+
+        }
+
+        private void buttonNovo_Click(object sender, EventArgs e)
+        {
+            Utils.HabilitaCamposNovo(this);
+        }
+
+        private void buttonSair_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

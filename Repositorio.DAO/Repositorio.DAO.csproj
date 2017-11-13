@@ -68,11 +68,40 @@
     <Compile Include="Migrations\201710301323161_VERSAO_DB_1.3.1.Designer.cs">
       <DependentUpon>201710301323161_VERSAO_DB_1.3.1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711081628541_VERSAO_DB_1.3.2_REMOCAO_DOS_CAMPOS_DE_ACESSO_DESNECESSARIO.cs" />
+    <Compile Include="Migrations\201711081628541_VERSAO_DB_1.3.2_REMOCAO_DOS_CAMPOS_DE_ACESSO_DESNECESSARIO.Designer.cs">
+      <DependentUpon>201711081628541_VERSAO_DB_1.3.2_REMOCAO_DOS_CAMPOS_DE_ACESSO_DESNECESSARIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711081656054_VERSAO_DB_1.3.3_REMOCAO_CAMPOS_DESNECESSARIOS.cs" />
+    <Compile Include="Migrations\201711081656054_VERSAO_DB_1.3.3_REMOCAO_CAMPOS_DESNECESSARIOS.Designer.cs">
+      <DependentUpon>201711081656054_VERSAO_DB_1.3.3_REMOCAO_CAMPOS_DESNECESSARIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711081801146_VERSAO_DB_1.3.4_AJUSTES_ANOTACOES.cs" />
+    <Compile Include="Migrations\201711081801146_VERSAO_DB_1.3.4_AJUSTES_ANOTACOES.Designer.cs">
+      <DependentUpon>201711081801146_VERSAO_DB_1.3.4_AJUSTES_ANOTACOES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711081830547_VERSAO_DB_1.3.5_ALTERACAO_COLUNA_UKEY.cs" />
+    <Compile Include="Migrations\201711081830547_VERSAO_DB_1.3.5_ALTERACAO_COLUNA_UKEY.Designer.cs">
+      <DependentUpon>201711081830547_VERSAO_DB_1.3.5_ALTERACAO_COLUNA_UKEY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711081833130_VERSAO_DB_1.3.6_ALTERACAO_TABELA_USUARIO_COLUNA_UKEY.cs" />
+    <Compile Include="Migrations\201711081833130_VERSAO_DB_1.3.6_ALTERACAO_TABELA_USUARIO_COLUNA_UKEY.Designer.cs">
+      <DependentUpon>201711081833130_VERSAO_DB_1.3.6_ALTERACAO_TABELA_USUARIO_COLUNA_UKEY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711081835304_VERSAO_DB_1.3.7_COLUNAUKEY_TABLE_USUARIO.cs" />
+    <Compile Include="Migrations\201711081835304_VERSAO_DB_1.3.7_COLUNAUKEY_TABLE_USUARIO.Designer.cs">
+      <DependentUpon>201711081835304_VERSAO_DB_1.3.7_COLUNAUKEY_TABLE_USUARIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711131345075_VERSAO_DB_1.3.8_AJUSTE_COLUNA_TIMESTAMP.cs" />
+    <Compile Include="Migrations\201711131345075_VERSAO_DB_1.3.8_AJUSTE_COLUNA_TIMESTAMP.Designer.cs">
+      <DependentUpon>201711131345075_VERSAO_DB_1.3.8_AJUSTE_COLUNA_TIMESTAMP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\Base\IRepositorio.cs" />
     <Compile Include="Repositorios\Base\Repositorio.cs" />
     <Compile Include="Repositorios\RepositorioA22.cs" />
+    <Compile Include="Repositorios\RepositorioUsuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
@@ -95,6 +124,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710301323161_VERSAO_DB_1.3.1.resx">
       <DependentUpon>201710301323161_VERSAO_DB_1.3.1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081628541_VERSAO_DB_1.3.2_REMOCAO_DOS_CAMPOS_DE_ACESSO_DESNECESSARIO.resx">
+      <DependentUpon>201711081628541_VERSAO_DB_1.3.2_REMOCAO_DOS_CAMPOS_DE_ACESSO_DESNECESSARIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081656054_VERSAO_DB_1.3.3_REMOCAO_CAMPOS_DESNECESSARIOS.resx">
+      <DependentUpon>201711081656054_VERSAO_DB_1.3.3_REMOCAO_CAMPOS_DESNECESSARIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081801146_VERSAO_DB_1.3.4_AJUSTES_ANOTACOES.resx">
+      <DependentUpon>201711081801146_VERSAO_DB_1.3.4_AJUSTES_ANOTACOES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081830547_VERSAO_DB_1.3.5_ALTERACAO_COLUNA_UKEY.resx">
+      <DependentUpon>201711081830547_VERSAO_DB_1.3.5_ALTERACAO_COLUNA_UKEY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081833130_VERSAO_DB_1.3.6_ALTERACAO_TABELA_USUARIO_COLUNA_UKEY.resx">
+      <DependentUpon>201711081833130_VERSAO_DB_1.3.6_ALTERACAO_TABELA_USUARIO_COLUNA_UKEY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711081835304_VERSAO_DB_1.3.7_COLUNAUKEY_TABLE_USUARIO.resx">
+      <DependentUpon>201711081835304_VERSAO_DB_1.3.7_COLUNAUKEY_TABLE_USUARIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711131345075_VERSAO_DB_1.3.8_AJUSTE_COLUNA_TIMESTAMP.resx">
+      <DependentUpon>201711131345075_VERSAO_DB_1.3.8_AJUSTE_COLUNA_TIMESTAMP.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

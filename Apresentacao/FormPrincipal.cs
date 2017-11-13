@@ -40,5 +40,11 @@ namespace Apresentacao
 
             Application.Exit();
         }
+
+        private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormUsuarioCadastro frm = new FormUsuarioCadastro();
+            frm.Show();
+        }
     }
 }
