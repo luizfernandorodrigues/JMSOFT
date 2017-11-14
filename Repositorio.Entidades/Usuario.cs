@@ -83,5 +83,7 @@ namespace Repositorio.Entidades
         [StringLength(50, ErrorMessage = "Tamanho máximo é de 50 caracteres!")]
         public string UsuarioEmail { get => usuarioEmail; set => usuarioEmail = value; }
         #endregion
+
+        
     }
 }

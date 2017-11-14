@@ -71,6 +71,14 @@ namespace Apresentacao
                 {
                     c.Enabled = true;
                 }
+                else if (c is DataGridView)
+                {
+                    c.Enabled = true;
+                }
+                else if (c is BindingNavigator)
+                {
+                    c.Enabled = true;
+                }
                 else if (c is Button)
                 {
                     c.Enabled = true;
@@ -89,7 +97,7 @@ namespace Apresentacao
         /// <param name="ctr"></param>
         public static void desabilitaBotoesNovo(Control ctr)
         {
-            foreach(Control c in ctr.Controls)
+            foreach (Control c in ctr.Controls)
             {
                 if (c is Button && c.Name.Equals("buttonExcluir"))
                 {

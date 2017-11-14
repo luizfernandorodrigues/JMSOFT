@@ -19,7 +19,8 @@ namespace Repositorio.DAO.Contexto
         public DbSet<A24> A24 { get; set; }
         public DbSet<A25> A25 { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
-
+        public DbSet<T01> T01 { get; set; }
+        
 
     }
 }

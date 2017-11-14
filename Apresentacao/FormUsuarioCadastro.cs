@@ -35,9 +35,6 @@ namespace Apresentacao
         private void novo()
         {
             flag = 1;
-
-
-
             Usuario usuario = new Usuario();
             usuario.Email = textBoxEmail.Text;
             usuario.Login = textBoxUsuario.Text;
@@ -46,7 +43,7 @@ namespace Apresentacao
             usuario.Senha = Utils.codificaSenha(textBoxSenha.Text);
             usuario.SenhaEmail = Utils.codificaSenha(textBoxSenhaEmail.Text);
             usuario.ServidorEmail = textBoxServidorEmail.Text;
-
+            //condição se o checkBox esta checado ou não
             if (checkBoxSsl.Checked)
             {
                 usuario.Ssl = 1;
@@ -68,9 +65,14 @@ namespace Apresentacao
                 user.SalvarTodos();
             }
         }
-
+        /// <summary>
+        /// Evento do botão salvar, 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonSalvar_Click(object sender, EventArgs e)
         {
+            //se for 1 entra aqui e inseri dados no banco de dados.
             if (flag == 1)
             {
                 try
@@ -85,7 +87,6 @@ namespace Apresentacao
                     MessageBox.Show(Utils.MENSAGEM_ERRO + ex.ToString(), Utils.TITULO, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Console.WriteLine(ex.Data);
                     return;
-
                 }
             }
         }

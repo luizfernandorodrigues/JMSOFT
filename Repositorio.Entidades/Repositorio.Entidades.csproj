@@ -45,8 +45,11 @@
     <Compile Include="A23.cs" />
     <Compile Include="A24.cs" />
     <Compile Include="A25.cs" />
+    <Compile Include="AbstractModel.cs" />
     <Compile Include="GeraGuid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="T01.cs" />
+    <Compile Include="T02.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>

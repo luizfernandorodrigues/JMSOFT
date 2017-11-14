@@ -71,6 +71,7 @@
             this.paisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.usuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,7 +98,8 @@
             this.cadastroDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimentoDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDePesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStripFormPrincipal.SuspendLayout();
             this.menuStripPrincipal.SuspendLayout();
             this.SuspendLayout();
@@ -127,6 +129,7 @@
             this.contasAPagarToolStripMenuItem,
             this.estoqueToolStripMenuItem,
             this.bancoToolStripMenuItem,
+            this.sistemaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.menuStripPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuStripPrincipal.Name = "menuStripPrincipal";
@@ -396,6 +399,13 @@
             this.toolStripSeparator13.Name = "toolStripSeparator13";
             this.toolStripSeparator13.Size = new System.Drawing.Size(301, 6);
             // 
+            // usuárioToolStripMenuItem
+            // 
+            this.usuárioToolStripMenuItem.Name = "usuárioToolStripMenuItem";
+            this.usuárioToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
+            this.usuárioToolStripMenuItem.Text = "Usuário";
+            this.usuárioToolStripMenuItem.Click += new System.EventHandler(this.usuárioToolStripMenuItem_Click);
+            // 
             // vendasToolStripMenuItem
             // 
             this.vendasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -577,12 +587,20 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // usuárioToolStripMenuItem
+            // sistemaToolStripMenuItem
             // 
-            this.usuárioToolStripMenuItem.Name = "usuárioToolStripMenuItem";
-            this.usuárioToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
-            this.usuárioToolStripMenuItem.Text = "Usuário";
-            this.usuárioToolStripMenuItem.Click += new System.EventHandler(this.usuárioToolStripMenuItem_Click);
+            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastroDePesquisaToolStripMenuItem});
+            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
+            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.sistemaToolStripMenuItem.Text = "Sistema";
+            // 
+            // cadastroDePesquisaToolStripMenuItem
+            // 
+            this.cadastroDePesquisaToolStripMenuItem.Name = "cadastroDePesquisaToolStripMenuItem";
+            this.cadastroDePesquisaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.cadastroDePesquisaToolStripMenuItem.Text = "Cadastro de Pesquisa";
+            this.cadastroDePesquisaToolStripMenuItem.Click += new System.EventHandler(this.cadastroDePesquisaToolStripMenuItem_Click);
             // 
             // FormPrincipal
             // 
@@ -677,5 +695,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
         private System.Windows.Forms.ToolStripMenuItem usuárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDePesquisaToolStripMenuItem;
     }
 }
