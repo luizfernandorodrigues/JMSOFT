@@ -27,6 +27,8 @@ namespace Apresentacao
         public const string MENSAGEM_SUCESSO = "Registro Gravado com Sucesso!";
         public const string MENSAGEM_ERRO = "Não Foi Possivel Gravar o Registro!\n Causa: ";
 
+        public static Guid usuarioLogado;
+        public static Guid empresaLogado;
 
         public enum Flags
         {
@@ -269,6 +271,8 @@ namespace Apresentacao
         {
             return Crypter.CheckPassword(senha, hash);
         }
+
+
     }
 
 

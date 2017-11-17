@@ -112,7 +112,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.TabIndex = 9;
+            this.textBoxControles.TabIndex = 9;
             // 
             // buttonSalvar
             // 
@@ -324,7 +324,6 @@
             this.Controls.SetChildIndex(this.groupBoxConfiguracaoEmail, 0);
             this.Controls.SetChildIndex(this.panelControles, 0);
             this.Controls.SetChildIndex(this.panelNavegacao, 0);
-            this.Controls.SetChildIndex(this.textBox1, 0);
             this.panelControles.ResumeLayout(false);
             this.panelNavegacao.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();

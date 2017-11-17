@@ -10,13 +10,13 @@ namespace Repositorio.Entidades
 {
     public class T02 : AbstractModel
     {
-        private string t01_001_c;
-        private string t01_002_c;
-        private int t01_003_n;
-        private int t01_004_n;
-        private string t01_005_c;
-        private string t01_006_c;
-        private string t01_007_n;
+        private string t02_001_c;
+        private string t02_002_c;
+        private int t02_003_n;
+        private int t02_004_n;
+        private string t02_005_c;
+        private string t02_006_c;
+        private string t02_007_n;
         private Guid t01_ukey;
         private T01 t01;
 
@@ -24,40 +24,40 @@ namespace Repositorio.Entidades
         [Required(ErrorMessage = "Campo tabela do sistema é obrigatorio!")]
         [Display(Name = "Tabela")]
         [StringLength(15)]
-        public string T01_001_c { get => t01_001_c; set => t01_001_c = value; }
+        public string T02_001_c { get => t02_001_c; set => t02_001_c = value; }
 
         [Column(TypeName = "nvarchar")]
         [Required(ErrorMessage = "coluna campo da tabela é obrigatório!")]
         [Display(Name = "Campo Tabela")]
         [StringLength(30)]
-        public string T01_002_c { get => t01_002_c; set => t01_002_c = value; }
+        public string T02_002_c { get => t02_002_c; set => t02_002_c = value; }
 
         [DataType("numeric(2,0)")]
         [Required(ErrorMessage = "operador é obrigatório!")]
         [Display(Name = "operador")]
-        public int T01_003_n { get => t01_003_n; set => t01_003_n = value; }
+        public int T02_003_n { get => t02_003_n; set => t02_003_n = value; }
 
         [DataType("numeric(2,0)")]
         [Required(ErrorMessage = "Tipo de campo é obrigatorio!")]
         [Display(Name = "Tipo do campo")]
-        public int T01_004_n { get => t01_004_n; set => t01_004_n = value; }
+        public int T02_004_n { get => t02_004_n; set => t02_004_n = value; }
 
         [Column(TypeName = "nvarchar")]
         [Display(Name = "valor padrao")]
         [StringLength(30)]
-        public string T01_005_c { get => t01_005_c; set => t01_005_c = value; }
+        public string T02_005_c { get => t02_005_c; set => t02_005_c = value; }
 
         [Column(TypeName = "nvarchar")]
         [Required(ErrorMessage = "nome do campo para exibição é obrigatório!")]
         [Display(Name = "Campo de Exibição")]
         [StringLength(30)]
-        public string T01_006_c { get => t01_006_c; set => t01_006_c = value; }
+        public string T02_006_c { get => t02_006_c; set => t02_006_c = value; }
 
         [Column(TypeName = "nvarchar")]
         [Required(ErrorMessage = "oredem dos campos de exibição é obrigatório!")]
         [Display(Name = "ordem dos campos para exibição")]
         [StringLength(30)]
-        public string T01_007_n { get => t01_007_n; set => t01_007_n = value; }
+        public string T02_007_n { get => t02_007_n; set => t02_007_n = value; }
 
         [ForeignKey("T01")]
         public Guid T01_ukey { get => t01_ukey; set => t01_ukey = value; }

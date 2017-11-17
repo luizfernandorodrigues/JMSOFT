@@ -19,7 +19,7 @@ namespace Repositorio.Entidades
         private string senha;
         private string senhaEmail;
         private string servidorEmail;
-        private int ssl;
+        private Decimal ssl;
         private DateTime timestamp;
         private string login;
         private string usuarioEmail;
@@ -67,7 +67,7 @@ namespace Repositorio.Entidades
 
         [DataType("numeric(1,0)")]
         [Display(Name = "Ssl")]
-        public int Ssl { get => ssl; set => ssl = value; }
+        public Decimal Ssl { get => ssl; set => ssl = value; }
 
         [Column(TypeName = "DateTime")]
         public DateTime Timestamp { get => timestamp; set => timestamp = value; }

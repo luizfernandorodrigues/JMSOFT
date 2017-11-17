@@ -44,7 +44,7 @@
             this.buttonDesfazer = new System.Windows.Forms.Button();
             this.panelNavegacao = new System.Windows.Forms.Panel();
             this.buttonPrimeiro = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxControles = new System.Windows.Forms.TextBox();
             this.toolTipFormBase = new System.Windows.Forms.ToolTip(this.components);
             this.panelControles.SuspendLayout();
             this.panelNavegacao.SuspendLayout();
@@ -210,15 +210,15 @@
             this.buttonPrimeiro.TabIndex = 3;
             this.buttonPrimeiro.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // textBoxControles
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(174, 71);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(400, 20);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Controles";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxControles.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBoxControles.Location = new System.Drawing.Point(174, 71);
+            this.textBoxControles.Name = "textBoxControles";
+            this.textBoxControles.Size = new System.Drawing.Size(400, 20);
+            this.textBoxControles.TabIndex = 1;
+            this.textBoxControles.Text = "Controles";
+            this.textBoxControles.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // toolTipFormBase
             // 
@@ -230,7 +230,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 410);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxControles);
             this.Controls.Add(this.panelNavegacao);
             this.Controls.Add(this.panelControles);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -260,7 +260,7 @@
         public System.Windows.Forms.Button buttonEditar;
         public System.Windows.Forms.Panel panelControles;
         public System.Windows.Forms.Panel panelNavegacao;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBoxControles;
         public System.Windows.Forms.ToolTip toolTipFormBase;
         public System.Windows.Forms.Button buttonSalvar;
     }

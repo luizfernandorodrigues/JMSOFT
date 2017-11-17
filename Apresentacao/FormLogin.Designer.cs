@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             this.textBoxUsuario = new System.Windows.Forms.TextBox();
             this.textBoxSenha = new System.Windows.Forms.TextBox();
@@ -36,7 +37,11 @@
             this.labelUsuario = new System.Windows.Forms.Label();
             this.labelSenha = new System.Windows.Forms.Label();
             this.buttonEntrar = new System.Windows.Forms.Button();
+            this.bindingSourceUsuario = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingSourceEmpresa = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListaEmpresa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceEmpresa)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxUsuario
@@ -106,6 +111,10 @@
             this.buttonEntrar.UseVisualStyleBackColor = true;
             this.buttonEntrar.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bindingSourceUsuario
+            // 
+            this.bindingSourceUsuario.DataSource = typeof(Repositorio.Entidades.Usuario);
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,7 +131,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListaEmpresa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceEmpresa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,6 +149,8 @@
         private System.Windows.Forms.Button buttonSair;
         private System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.Label labelSenha;
+        private System.Windows.Forms.BindingSource bindingSourceUsuario;
+        private System.Windows.Forms.BindingSource bindingSourceEmpresa;
     }
 }
 

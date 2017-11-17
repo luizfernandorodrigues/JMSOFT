@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Repositorio.DAO.Repositorios;
 using Repositorio.Entidades;
 
+
 namespace Apresentacao
 {
     public partial class FormLogin : Form
@@ -21,18 +22,31 @@ namespace Apresentacao
 
         private void button1_Click(object sender, EventArgs e)
         {
-            A22 a22 = new A22();
-            a22.A22_001_c = textBoxUsuario.Text;
-            a22.A22_002_c = textBoxSenha.Text;
-           
-            a22.Timestamp = DateTime.Now;
-            a22.A23 = null;
-            a22.Ukey = Guid.NewGuid();
+            validaUser(textBoxUsuario.Text);
 
-            RepositorioA22 pais = new RepositorioA22();
-            pais.adicionar(a22);
-            pais.SalvarTodos();
-            
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void validaUser(string login)
+        {
+            List<Usuario> user = new List<Usuario>();
+            RepositorioUsuario repUser = new RepositorioUsuario();
+
+            user = repUser.pesquisaPorLogin(login);
+
+            if (user.Count == 0)
+            {
+                MessageBox.Show("Usuário não encontrado", Utils.TITULO, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                Utils.usuarioLogado = user[0].Ukey;
+            }
         }
     }
 }
