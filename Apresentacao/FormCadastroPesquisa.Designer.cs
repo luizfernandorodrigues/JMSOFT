@@ -36,12 +36,12 @@
             this.labelSql = new System.Windows.Forms.Label();
             this.textBoxSQL = new System.Windows.Forms.TextBox();
             this.dataGridViewCamposPesquisa = new System.Windows.Forms.DataGridView();
-            this.t02BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.t01001cDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.t01002cDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.t01003nDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.t01004nDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.t01006cDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.t02BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.buttonIncluirCampoPesquisa = new System.Windows.Forms.Button();
             this.buttonEditarCampoPesquisa = new System.Windows.Forms.Button();
             this.buttonVisualizacampoPesquisa = new System.Windows.Forms.Button();
@@ -175,10 +175,6 @@
             this.dataGridViewCamposPesquisa.Size = new System.Drawing.Size(747, 207);
             this.dataGridViewCamposPesquisa.TabIndex = 9;
             // 
-            // t02BindingSource
-            // 
-            this.t02BindingSource.DataSource = typeof(Repositorio.Entidades.T02);
-            // 
             // t01001cDataGridViewTextBoxColumn
             // 
             this.t01001cDataGridViewTextBoxColumn.DataPropertyName = "T02_001_c";
@@ -218,6 +214,10 @@
             this.t01006cDataGridViewTextBoxColumn.Name = "t01006cDataGridViewTextBoxColumn";
             this.t01006cDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // t02BindingSource
+            // 
+            this.t02BindingSource.DataSource = typeof(Repositorio.Entidades.T02);
+            // 
             // buttonIncluirCampoPesquisa
             // 
             this.buttonIncluirCampoPesquisa.Image = global::Apresentacao.Properties.Resources.Add_List_15px;
@@ -229,6 +229,7 @@
             this.buttonIncluirCampoPesquisa.Text = "Incluir";
             this.buttonIncluirCampoPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonIncluirCampoPesquisa.UseVisualStyleBackColor = true;
+            this.buttonIncluirCampoPesquisa.Click += new System.EventHandler(this.buttonIncluirCampoPesquisa_Click);
             // 
             // buttonEditarCampoPesquisa
             // 
@@ -283,6 +284,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Name = "FormCadastroPesquisa";
             this.Text = "T01";
+            this.Load += new System.EventHandler(this.FormCadastroPesquisa_Load);
             this.Controls.SetChildIndex(this.textBoxControles, 0);
             this.Controls.SetChildIndex(this.panelControles, 0);
             this.Controls.SetChildIndex(this.panelNavegacao, 0);

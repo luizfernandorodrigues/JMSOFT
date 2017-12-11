@@ -15,14 +15,21 @@ namespace Apresentacao
 {
     public partial class FormLogin : Form
     {
+
+
         public FormLogin()
         {
             InitializeComponent();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            validaUser(textBoxUsuario.Text);
+            if (validaUser())
+            {
+                this.Close();
+            }
+            return;
 
         }
 
@@ -31,22 +38,28 @@ namespace Apresentacao
 
         }
 
-        private void validaUser(string login)
+        public bool validaUser()
         {
             List<Usuario> user = new List<Usuario>();
             RepositorioUsuario repUser = new RepositorioUsuario();
-
-            user = repUser.pesquisaPorLogin(login);
+            FormPrincipal frm = new FormPrincipal();
+            user = repUser.pesquisaPorLogin(textBoxUsuario.Text);
 
             if (user.Count == 0)
             {
                 MessageBox.Show("Usuário não encontrado", Utils.TITULO, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
+                return false;
             }
-            else
-            {
-                Utils.usuarioLogado = user[0].Ukey;
-            }
+
+            return true;
+        }
+
+
+        private void FormLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
         }
     }
+
 }
+

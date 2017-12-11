@@ -21,6 +21,10 @@ namespace Apresentacao
         {
             this.Text = Utils.TITULO;
             this.toolStripStatusLabel1.Text = Utils.VERSAO;
+            using (FormLogin login = new FormLogin())
+            {
+                login.ShowDialog();
+            }
         }
 
         /// <summary>
@@ -51,6 +55,11 @@ namespace Apresentacao
         {
             FormCadastroPesquisa frm = new FormCadastroPesquisa();
             frm.Show();
+        }
+
+        private void cadastroDePesquisasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -51,6 +51,7 @@ namespace Apresentacao
             //preenche as propriedades do objeto T02
             t02.T01_ukey = t01.Ukey;
             t02.User_note = Utils.usuarioLogado;
+            //t02.T02_001_c = textB
 
             
             
@@ -58,6 +59,17 @@ namespace Apresentacao
 
 
 
+        }
+
+        private void FormCadastroPesquisa_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonIncluirCampoPesquisa_Click(object sender, EventArgs e)
+        {
+            FormCadastroT02 frm = new FormCadastroT02();
+            frm.Show();
         }
     }
 }

@@ -120,6 +120,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 272);
+            this.ControlBox = false;
             this.Controls.Add(this.labelSenha);
             this.Controls.Add(this.labelUsuario);
             this.Controls.Add(this.buttonSair);
@@ -130,7 +131,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormLogin_FormClosed);
             this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListaEmpresa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUsuario)).EndInit();
@@ -143,14 +146,14 @@
         #endregion
 
         private System.Windows.Forms.Button buttonEntrar;
-        private System.Windows.Forms.TextBox textBoxUsuario;
-        private System.Windows.Forms.TextBox textBoxSenha;
         private System.Windows.Forms.DataGridView dataGridViewListaEmpresa;
         private System.Windows.Forms.Button buttonSair;
         private System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.Label labelSenha;
         private System.Windows.Forms.BindingSource bindingSourceUsuario;
         private System.Windows.Forms.BindingSource bindingSourceEmpresa;
+        public System.Windows.Forms.TextBox textBoxUsuario;
+        public System.Windows.Forms.TextBox textBoxSenha;
     }
 }
 

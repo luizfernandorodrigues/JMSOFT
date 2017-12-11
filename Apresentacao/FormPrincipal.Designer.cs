@@ -97,9 +97,10 @@
             this.transferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimentoDeChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDePesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.statusStripFormPrincipal.SuspendLayout();
             this.menuStripPrincipal.SuspendLayout();
             this.SuspendLayout();
@@ -166,7 +167,8 @@
             this.toolStripSeparator12,
             this.logradouroToolStripMenuItem,
             this.toolStripSeparator13,
-            this.usuárioToolStripMenuItem});
+            this.usuárioToolStripMenuItem,
+            this.toolStripSeparator18});
             this.cadastrosIniciaisToolStripMenuItem.Name = "cadastrosIniciaisToolStripMenuItem";
             this.cadastrosIniciaisToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.cadastrosIniciaisToolStripMenuItem.Text = "Cadastros Iniciais";
@@ -580,13 +582,6 @@
             this.movimentoDeChequeToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.movimentoDeChequeToolStripMenuItem.Text = "Movimento de Cheque";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // sistemaToolStripMenuItem
             // 
             this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -601,6 +596,18 @@
             this.cadastroDePesquisaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.cadastroDePesquisaToolStripMenuItem.Text = "Cadastro de Pesquisa";
             this.cadastroDePesquisaToolStripMenuItem.Click += new System.EventHandler(this.cadastroDePesquisaToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator18
+            // 
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(301, 6);
             // 
             // FormPrincipal
             // 
@@ -697,5 +704,6 @@
         private System.Windows.Forms.ToolStripMenuItem usuárioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDePesquisaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator18;
     }
 }
