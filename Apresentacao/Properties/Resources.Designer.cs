@@ -473,6 +473,16 @@ namespace Apresentacao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap picture_15px {
+            get {
+                object obj = ResourceManager.GetObject("picture_15px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Plus_25px {
             get {
                 object obj = ResourceManager.GetObject("Plus_25px", resourceCulture);

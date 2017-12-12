@@ -61,5 +61,11 @@ namespace Apresentacao
         {
 
         }
+
+        private void empresaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormA10Cadastro frm = new FormA10Cadastro();
+            frm.Show();
+        }
     }
 }

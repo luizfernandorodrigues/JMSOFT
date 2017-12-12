@@ -72,6 +72,7 @@
             this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
             this.usuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -100,7 +101,6 @@
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDePesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.statusStripFormPrincipal.SuspendLayout();
             this.menuStripPrincipal.SuspendLayout();
             this.SuspendLayout();
@@ -317,6 +317,7 @@
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
             this.empresaToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.empresaToolStripMenuItem.Text = "Empresa";
+            this.empresaToolStripMenuItem.Click += new System.EventHandler(this.empresaToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
             // 
@@ -407,6 +408,11 @@
             this.usuárioToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.usuárioToolStripMenuItem.Text = "Usuário";
             this.usuárioToolStripMenuItem.Click += new System.EventHandler(this.usuárioToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator18
+            // 
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(301, 6);
             // 
             // vendasToolStripMenuItem
             // 
@@ -603,11 +609,6 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator18
-            // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(301, 6);
             // 
             // FormPrincipal
             // 

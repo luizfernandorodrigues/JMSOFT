@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A10.cs" />
     <Compile Include="A22.cs" />
     <Compile Include="A23.cs" />
     <Compile Include="A24.cs" />
