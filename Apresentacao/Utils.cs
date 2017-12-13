@@ -271,6 +271,65 @@ namespace Apresentacao
         {
             return Crypter.CheckPassword(senha, hash);
         }
+        /// <summary>
+        /// Função responsavel por desfazer o estado atual de um form
+        /// no momento somente desfaz em modo de adicionar registro.
+        /// necessita modificar pra gravar um objeto em memoria e depois recupera-lo se necessario
+        /// </summary>
+        /// <param name="ctr"></param>
+        public static void desfazerEstadoNovo(Control ctr)
+        {
+            desabilitaCamposNovo(ctr);
+
+            foreach (Control c in ctr.Controls)
+            {
+                if (c is Button && c.Name.Equals("buttonSair"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonPesquisa"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonProximo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonUltimo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonAnterior"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonPrimeiro"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonNovo"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonRelatorio"))
+                {
+                    c.Enabled = true;
+                }
+                else if (c is Button && c.Name.Equals("buttonExcluir"))
+                {
+                    c.Enabled = false;
+                }
+                else if (c is Button && c.Name.Equals("buttonEditar"))
+                {
+                    c.Enabled = false;
+                }
+                if (c.HasChildren)
+                {
+                    habilitaBotoesNovo(c);
+                }
+            }
+
+        }
 
 
     }

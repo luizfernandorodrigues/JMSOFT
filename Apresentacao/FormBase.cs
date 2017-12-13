@@ -12,6 +12,7 @@ namespace Apresentacao
 {
     public partial class FormBase : Form
     {
+        private int flag = 1;
         public FormBase()
         {
             InitializeComponent();
@@ -36,12 +37,21 @@ namespace Apresentacao
 
         private void buttonNovo_Click(object sender, EventArgs e)
         {
-            Utils.desabilitaCamposNovo(this);
+            Utils.habilitaCamposNovos(this);
+            flag = 1;
         }
 
         private void buttonSair_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void buttonDesfazer_Click(object sender, EventArgs e)
+        {
+            if (flag == 1)
+            {
+                Utils.desfazerEstadoNovo(this);
+            }
         }
     }
 }

@@ -143,6 +143,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Repositorio.Entidades.A10.datasource" />
     <None Include="Properties\DataSources\Repositorio.Entidades.T02.datasource" />
     <None Include="Properties\DataSources\Repositorio.Entidades.Usuario.datasource" />
     <None Include="Properties\Settings.settings">

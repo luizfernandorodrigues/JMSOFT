@@ -14,7 +14,7 @@ namespace Repositorio.Entidades
         private Usuario usuario;
         private Guid ukey;
         private Guid cia_ukey;
-        private A10 a10;
+        private A10 empresa;
 
         [Column(TypeName ="DateTime")]
         public DateTime Timestamp { get => timestamp; set => timestamp = value; }
@@ -26,8 +26,8 @@ namespace Repositorio.Entidades
         [Key]
         public Guid Ukey { get => ukey; set => ukey = value; }
 
-        [ForeignKey("A10")]
+        [ForeignKey("Empresa")]
         public Guid Cia_ukey { get => cia_ukey; set => cia_ukey = value; }
-        public A10 A10 { get => a10; set => a10 = value; }
+        public A10 Empresa { get => empresa; set => empresa = value; }
     }
 }

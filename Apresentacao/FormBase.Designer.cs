@@ -186,6 +186,7 @@
             this.buttonDesfazer.Text = "Desfazer";
             this.buttonDesfazer.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonDesfazer.UseVisualStyleBackColor = true;
+            this.buttonDesfazer.Click += new System.EventHandler(this.buttonDesfazer_Click);
             // 
             // panelNavegacao
             // 

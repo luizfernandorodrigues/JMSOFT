@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelLogradouro = new System.Windows.Forms.Label();
             this.labelCodigo = new System.Windows.Forms.Label();
             this.labelFantasia = new System.Windows.Forms.Label();
@@ -54,13 +55,13 @@
             this.labelInicio = new System.Windows.Forms.Label();
             this.tabControlDadosGeral = new System.Windows.Forms.TabControl();
             this.tabPageDadosGerais = new System.Windows.Forms.TabPage();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBoxFonecontador = new System.Windows.Forms.MaskedTextBox();
+            this.textBoxSite = new System.Windows.Forms.TextBox();
+            this.maskedTextBoxFax = new System.Windows.Forms.MaskedTextBox();
+            this.textBoxcontador = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.maskedTextBoxCelular = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBoxFone = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxIncricao = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxCnpj = new System.Windows.Forms.MaskedTextBox();
             this.buttonImagem = new System.Windows.Forms.Button();
@@ -82,42 +83,44 @@
             this.textBoxLogradouro = new System.Windows.Forms.TextBox();
             this.textBoxNumero = new System.Windows.Forms.TextBox();
             this.tabPageDadosNfe = new System.Windows.Forms.TabPage();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownTetoInss = new System.Windows.Forms.NumericUpDown();
             this.labelBaseMaximaInss = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownJuros = new System.Windows.Forms.NumericUpDown();
             this.labelJuros = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownSest = new System.Windows.Forms.NumericUpDown();
             this.labelCest = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownBaseInss = new System.Windows.Forms.NumericUpDown();
             this.labelBaseInss = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownCsosn = new System.Windows.Forms.NumericUpDown();
             this.labelCsosn = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxRegimeEmpresa = new System.Windows.Forms.ComboBox();
             this.labelRegime = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxPastaNfe = new System.Windows.Forms.TextBox();
             this.labelPastaNfe = new System.Windows.Forms.Label();
             this.groupBoxEmissaoNFE = new System.Windows.Forms.GroupBox();
             this.radioButtonProducao = new System.Windows.Forms.RadioButton();
             this.radioButtonHomologacao = new System.Windows.Forms.RadioButton();
             this.checkBox1GeraNfeAutomatico = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipoNfe = new System.Windows.Forms.ComboBox();
             this.labelTipoEmissaoNfe = new System.Windows.Forms.Label();
             this.tabPageParametros = new System.Windows.Forms.TabPage();
             this.checkBoxFechaCaixa = new System.Windows.Forms.CheckBox();
             this.checkBoxNumeracaoPedido = new System.Windows.Forms.CheckBox();
+            this.a10BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panelControles.SuspendLayout();
             this.panelNavegacao.SuspendLayout();
             this.tabControlDadosGeral.SuspendLayout();
             this.tabPageDadosGerais.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.tabPageDadosNfe.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTetoInss)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownJuros)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSest)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBaseInss)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCsosn)).BeginInit();
             this.groupBoxEmissaoNFE.SuspendLayout();
             this.tabPageParametros.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.a10BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonNovo
@@ -398,18 +401,18 @@
             // 
             // tabPageDadosGerais
             // 
-            this.tabPageDadosGerais.Controls.Add(this.maskedTextBox5);
-            this.tabPageDadosGerais.Controls.Add(this.textBox12);
+            this.tabPageDadosGerais.Controls.Add(this.maskedTextBoxFonecontador);
+            this.tabPageDadosGerais.Controls.Add(this.textBoxSite);
             this.tabPageDadosGerais.Controls.Add(this.labelSite);
-            this.tabPageDadosGerais.Controls.Add(this.maskedTextBox4);
+            this.tabPageDadosGerais.Controls.Add(this.maskedTextBoxFax);
             this.tabPageDadosGerais.Controls.Add(this.labelFoneContador);
-            this.tabPageDadosGerais.Controls.Add(this.textBox14);
+            this.tabPageDadosGerais.Controls.Add(this.textBoxcontador);
             this.tabPageDadosGerais.Controls.Add(this.labelContador);
-            this.tabPageDadosGerais.Controls.Add(this.textBox15);
+            this.tabPageDadosGerais.Controls.Add(this.textBoxEmail);
             this.tabPageDadosGerais.Controls.Add(this.labelEmail);
-            this.tabPageDadosGerais.Controls.Add(this.maskedTextBox3);
+            this.tabPageDadosGerais.Controls.Add(this.maskedTextBoxCelular);
             this.tabPageDadosGerais.Controls.Add(this.labelFax);
-            this.tabPageDadosGerais.Controls.Add(this.maskedTextBox2);
+            this.tabPageDadosGerais.Controls.Add(this.maskedTextBoxFone);
             this.tabPageDadosGerais.Controls.Add(this.labelCelular);
             this.tabPageDadosGerais.Controls.Add(this.maskedTextBoxIncricao);
             this.tabPageDadosGerais.Controls.Add(this.labelFone);
@@ -457,68 +460,76 @@
             this.tabPageDadosGerais.Text = "Dados Gerais";
             this.tabPageDadosGerais.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox5
+            // maskedTextBoxFonecontador
             // 
-            this.maskedTextBox5.Enabled = false;
-            this.maskedTextBox5.Location = new System.Drawing.Point(354, 310);
-            this.maskedTextBox5.Mask = "(99) 0000-0000";
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(202, 20);
-            this.maskedTextBox5.TabIndex = 24;
+            this.maskedTextBoxFonecontador.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_024_c", true));
+            this.maskedTextBoxFonecontador.Enabled = false;
+            this.maskedTextBoxFonecontador.Location = new System.Drawing.Point(354, 310);
+            this.maskedTextBoxFonecontador.Mask = "(99) 0000-0000";
+            this.maskedTextBoxFonecontador.Name = "maskedTextBoxFonecontador";
+            this.maskedTextBoxFonecontador.Size = new System.Drawing.Size(202, 20);
+            this.maskedTextBoxFonecontador.TabIndex = 24;
             // 
-            // textBox12
+            // textBoxSite
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(67, 336);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(489, 20);
-            this.textBox12.TabIndex = 25;
+            this.textBoxSite.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_013_c", true));
+            this.textBoxSite.Enabled = false;
+            this.textBoxSite.Location = new System.Drawing.Point(67, 336);
+            this.textBoxSite.Name = "textBoxSite";
+            this.textBoxSite.Size = new System.Drawing.Size(489, 20);
+            this.textBoxSite.TabIndex = 25;
             // 
-            // maskedTextBox4
+            // maskedTextBoxFax
             // 
-            this.maskedTextBox4.Enabled = false;
-            this.maskedTextBox4.Location = new System.Drawing.Point(67, 282);
-            this.maskedTextBox4.Mask = "(99) 0000-0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(199, 20);
-            this.maskedTextBox4.TabIndex = 21;
+            this.maskedTextBoxFax.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_010_c", true));
+            this.maskedTextBoxFax.Enabled = false;
+            this.maskedTextBoxFax.Location = new System.Drawing.Point(67, 282);
+            this.maskedTextBoxFax.Mask = "(99) 0000-0000";
+            this.maskedTextBoxFax.Name = "maskedTextBoxFax";
+            this.maskedTextBoxFax.Size = new System.Drawing.Size(199, 20);
+            this.maskedTextBoxFax.TabIndex = 21;
             // 
-            // textBox14
+            // textBoxcontador
             // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(67, 310);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(199, 20);
-            this.textBox14.TabIndex = 23;
+            this.textBoxcontador.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_023_c", true));
+            this.textBoxcontador.Enabled = false;
+            this.textBoxcontador.Location = new System.Drawing.Point(67, 310);
+            this.textBoxcontador.Name = "textBoxcontador";
+            this.textBoxcontador.Size = new System.Drawing.Size(199, 20);
+            this.textBoxcontador.TabIndex = 23;
             // 
-            // textBox15
+            // textBoxEmail
             // 
-            this.textBox15.Enabled = false;
-            this.textBox15.Location = new System.Drawing.Point(310, 280);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(246, 20);
-            this.textBox15.TabIndex = 22;
+            this.textBoxEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_012_c", true));
+            this.textBoxEmail.Enabled = false;
+            this.textBoxEmail.Location = new System.Drawing.Point(310, 280);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(246, 20);
+            this.textBoxEmail.TabIndex = 22;
             // 
-            // maskedTextBox3
+            // maskedTextBoxCelular
             // 
-            this.maskedTextBox3.Enabled = false;
-            this.maskedTextBox3.Location = new System.Drawing.Point(332, 254);
-            this.maskedTextBox3.Mask = "(99) 0000-0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(224, 20);
-            this.maskedTextBox3.TabIndex = 20;
+            this.maskedTextBoxCelular.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_011_c", true));
+            this.maskedTextBoxCelular.Enabled = false;
+            this.maskedTextBoxCelular.Location = new System.Drawing.Point(332, 254);
+            this.maskedTextBoxCelular.Mask = "(99) 0000-0000";
+            this.maskedTextBoxCelular.Name = "maskedTextBoxCelular";
+            this.maskedTextBoxCelular.Size = new System.Drawing.Size(224, 20);
+            this.maskedTextBoxCelular.TabIndex = 20;
             // 
-            // maskedTextBox2
+            // maskedTextBoxFone
             // 
-            this.maskedTextBox2.Enabled = false;
-            this.maskedTextBox2.Location = new System.Drawing.Point(67, 254);
-            this.maskedTextBox2.Mask = "(99) 0000-0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(199, 20);
-            this.maskedTextBox2.TabIndex = 19;
+            this.maskedTextBoxFone.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_009_c", true));
+            this.maskedTextBoxFone.Enabled = false;
+            this.maskedTextBoxFone.Location = new System.Drawing.Point(67, 254);
+            this.maskedTextBoxFone.Mask = "(99) 0000-0000";
+            this.maskedTextBoxFone.Name = "maskedTextBoxFone";
+            this.maskedTextBoxFone.Size = new System.Drawing.Size(199, 20);
+            this.maskedTextBoxFone.TabIndex = 19;
             // 
             // maskedTextBoxIncricao
             // 
+            this.maskedTextBoxIncricao.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_017_c", true));
             this.maskedTextBoxIncricao.Enabled = false;
             this.maskedTextBoxIncricao.Location = new System.Drawing.Point(332, 226);
             this.maskedTextBoxIncricao.Mask = "00000000-00";
@@ -528,6 +539,7 @@
             // 
             // maskedTextBoxCnpj
             // 
+            this.maskedTextBoxCnpj.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_016_c", true));
             this.maskedTextBoxCnpj.Enabled = false;
             this.maskedTextBoxCnpj.Location = new System.Drawing.Point(67, 226);
             this.maskedTextBoxCnpj.Mask = "00.000.000/0000-00";
@@ -581,6 +593,7 @@
             // 
             // textBoxBairro
             // 
+            this.textBoxBairro.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_006_c", true));
             this.textBoxBairro.Enabled = false;
             this.textBoxBairro.Location = new System.Drawing.Point(67, 198);
             this.textBoxBairro.Name = "textBoxBairro";
@@ -589,6 +602,7 @@
             // 
             // textBoxComplemento
             // 
+            this.textBoxComplemento.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_007_c", true));
             this.textBoxComplemento.Enabled = false;
             this.textBoxComplemento.Location = new System.Drawing.Point(378, 198);
             this.textBoxComplemento.Name = "textBoxComplemento";
@@ -630,6 +644,7 @@
             // 
             // maskedTextBoxDataInicio
             // 
+            this.maskedTextBoxDataInicio.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_014_d", true));
             this.maskedTextBoxDataInicio.Enabled = false;
             this.maskedTextBoxDataInicio.Location = new System.Drawing.Point(261, 2);
             this.maskedTextBoxDataInicio.Mask = "00/00/0000 90:00";
@@ -640,6 +655,7 @@
             // 
             // textBoxCodigo
             // 
+            this.textBoxCodigo.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_001_c", true));
             this.textBoxCodigo.Enabled = false;
             this.textBoxCodigo.Location = new System.Drawing.Point(67, 2);
             this.textBoxCodigo.Name = "textBoxCodigo";
@@ -648,14 +664,17 @@
             // 
             // textBoxFantasia
             // 
+            this.textBoxFantasia.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_002_c", true));
             this.textBoxFantasia.Enabled = false;
             this.textBoxFantasia.Location = new System.Drawing.Point(67, 30);
             this.textBoxFantasia.Name = "textBoxFantasia";
             this.textBoxFantasia.Size = new System.Drawing.Size(199, 20);
             this.textBoxFantasia.TabIndex = 2;
+            this.textBoxFantasia.Tag = "";
             // 
             // textBoxCnae
             // 
+            this.textBoxCnae.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_015_c", true));
             this.textBoxCnae.Enabled = false;
             this.textBoxCnae.Location = new System.Drawing.Point(301, 31);
             this.textBoxCnae.Name = "textBoxCnae";
@@ -664,6 +683,7 @@
             // 
             // textBoxRazaoSocial
             // 
+            this.textBoxRazaoSocial.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_003_c", true));
             this.textBoxRazaoSocial.Enabled = false;
             this.textBoxRazaoSocial.Location = new System.Drawing.Point(67, 58);
             this.textBoxRazaoSocial.Name = "textBoxRazaoSocial";
@@ -672,6 +692,7 @@
             // 
             // textBoxLogradouro
             // 
+            this.textBoxLogradouro.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_004_c", true));
             this.textBoxLogradouro.Enabled = false;
             this.textBoxLogradouro.Location = new System.Drawing.Point(67, 170);
             this.textBoxLogradouro.Name = "textBoxLogradouro";
@@ -680,6 +701,7 @@
             // 
             // textBoxNumero
             // 
+            this.textBoxNumero.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_005_c", true));
             this.textBoxNumero.Enabled = false;
             this.textBoxNumero.Location = new System.Drawing.Point(460, 169);
             this.textBoxNumero.Name = "textBoxNumero";
@@ -688,23 +710,23 @@
             // 
             // tabPageDadosNfe
             // 
-            this.tabPageDadosNfe.Controls.Add(this.numericUpDown5);
+            this.tabPageDadosNfe.Controls.Add(this.numericUpDownTetoInss);
             this.tabPageDadosNfe.Controls.Add(this.labelBaseMaximaInss);
-            this.tabPageDadosNfe.Controls.Add(this.numericUpDown4);
+            this.tabPageDadosNfe.Controls.Add(this.numericUpDownJuros);
             this.tabPageDadosNfe.Controls.Add(this.labelJuros);
-            this.tabPageDadosNfe.Controls.Add(this.numericUpDown3);
+            this.tabPageDadosNfe.Controls.Add(this.numericUpDownSest);
             this.tabPageDadosNfe.Controls.Add(this.labelCest);
-            this.tabPageDadosNfe.Controls.Add(this.numericUpDown2);
+            this.tabPageDadosNfe.Controls.Add(this.numericUpDownBaseInss);
             this.tabPageDadosNfe.Controls.Add(this.labelBaseInss);
-            this.tabPageDadosNfe.Controls.Add(this.numericUpDown1);
+            this.tabPageDadosNfe.Controls.Add(this.numericUpDownCsosn);
             this.tabPageDadosNfe.Controls.Add(this.labelCsosn);
-            this.tabPageDadosNfe.Controls.Add(this.comboBox2);
+            this.tabPageDadosNfe.Controls.Add(this.comboBoxRegimeEmpresa);
             this.tabPageDadosNfe.Controls.Add(this.labelRegime);
-            this.tabPageDadosNfe.Controls.Add(this.textBox4);
+            this.tabPageDadosNfe.Controls.Add(this.textBoxPastaNfe);
             this.tabPageDadosNfe.Controls.Add(this.labelPastaNfe);
             this.tabPageDadosNfe.Controls.Add(this.groupBoxEmissaoNFE);
             this.tabPageDadosNfe.Controls.Add(this.checkBox1GeraNfeAutomatico);
-            this.tabPageDadosNfe.Controls.Add(this.comboBox1);
+            this.tabPageDadosNfe.Controls.Add(this.comboBoxTipoNfe);
             this.tabPageDadosNfe.Controls.Add(this.labelTipoEmissaoNfe);
             this.tabPageDadosNfe.Location = new System.Drawing.Point(4, 22);
             this.tabPageDadosNfe.Name = "tabPageDadosNfe";
@@ -714,13 +736,14 @@
             this.tabPageDadosNfe.Text = "Dados NF-e";
             this.tabPageDadosNfe.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown5
+            // numericUpDownTetoInss
             // 
-            this.numericUpDown5.Enabled = false;
-            this.numericUpDown5.Location = new System.Drawing.Point(69, 273);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(289, 20);
-            this.numericUpDown5.TabIndex = 8;
+            this.numericUpDownTetoInss.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.a10BindingSource, "A10_020_n", true));
+            this.numericUpDownTetoInss.Enabled = false;
+            this.numericUpDownTetoInss.Location = new System.Drawing.Point(69, 273);
+            this.numericUpDownTetoInss.Name = "numericUpDownTetoInss";
+            this.numericUpDownTetoInss.Size = new System.Drawing.Size(289, 20);
+            this.numericUpDownTetoInss.TabIndex = 8;
             // 
             // labelBaseMaximaInss
             // 
@@ -731,13 +754,14 @@
             this.labelBaseMaximaInss.TabIndex = 18;
             this.labelBaseMaximaInss.Text = "Teto Inss:";
             // 
-            // numericUpDown4
+            // numericUpDownJuros
             // 
-            this.numericUpDown4.Enabled = false;
-            this.numericUpDown4.Location = new System.Drawing.Point(69, 247);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(289, 20);
-            this.numericUpDown4.TabIndex = 7;
+            this.numericUpDownJuros.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.a10BindingSource, "A10_039_n", true));
+            this.numericUpDownJuros.Enabled = false;
+            this.numericUpDownJuros.Location = new System.Drawing.Point(69, 247);
+            this.numericUpDownJuros.Name = "numericUpDownJuros";
+            this.numericUpDownJuros.Size = new System.Drawing.Size(289, 20);
+            this.numericUpDownJuros.TabIndex = 7;
             // 
             // labelJuros
             // 
@@ -748,13 +772,14 @@
             this.labelJuros.TabIndex = 16;
             this.labelJuros.Text = "Juros:";
             // 
-            // numericUpDown3
+            // numericUpDownSest
             // 
-            this.numericUpDown3.Enabled = false;
-            this.numericUpDown3.Location = new System.Drawing.Point(69, 221);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(289, 20);
-            this.numericUpDown3.TabIndex = 6;
+            this.numericUpDownSest.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.a10BindingSource, "A10_021_n", true));
+            this.numericUpDownSest.Enabled = false;
+            this.numericUpDownSest.Location = new System.Drawing.Point(69, 221);
+            this.numericUpDownSest.Name = "numericUpDownSest";
+            this.numericUpDownSest.Size = new System.Drawing.Size(289, 20);
+            this.numericUpDownSest.TabIndex = 6;
             // 
             // labelCest
             // 
@@ -765,13 +790,14 @@
             this.labelCest.TabIndex = 14;
             this.labelCest.Text = "% SEST:";
             // 
-            // numericUpDown2
+            // numericUpDownBaseInss
             // 
-            this.numericUpDown2.Enabled = false;
-            this.numericUpDown2.Location = new System.Drawing.Point(69, 195);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(289, 20);
-            this.numericUpDown2.TabIndex = 5;
+            this.numericUpDownBaseInss.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.a10BindingSource, "A10_019_n", true));
+            this.numericUpDownBaseInss.Enabled = false;
+            this.numericUpDownBaseInss.Location = new System.Drawing.Point(69, 195);
+            this.numericUpDownBaseInss.Name = "numericUpDownBaseInss";
+            this.numericUpDownBaseInss.Size = new System.Drawing.Size(289, 20);
+            this.numericUpDownBaseInss.TabIndex = 5;
             // 
             // labelBaseInss
             // 
@@ -782,13 +808,14 @@
             this.labelBaseInss.TabIndex = 12;
             this.labelBaseInss.Text = "Base INSS:";
             // 
-            // numericUpDown1
+            // numericUpDownCsosn
             // 
-            this.numericUpDown1.Enabled = false;
-            this.numericUpDown1.Location = new System.Drawing.Point(69, 169);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(289, 20);
-            this.numericUpDown1.TabIndex = 4;
+            this.numericUpDownCsosn.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.a10BindingSource, "A10_032_n", true));
+            this.numericUpDownCsosn.Enabled = false;
+            this.numericUpDownCsosn.Location = new System.Drawing.Point(69, 169);
+            this.numericUpDownCsosn.Name = "numericUpDownCsosn";
+            this.numericUpDownCsosn.Size = new System.Drawing.Size(289, 20);
+            this.numericUpDownCsosn.TabIndex = 4;
             // 
             // labelCsosn
             // 
@@ -799,14 +826,15 @@
             this.labelCsosn.TabIndex = 10;
             this.labelCsosn.Text = "% CSOSN:";
             // 
-            // comboBox2
+            // comboBoxRegimeEmpresa
             // 
-            this.comboBox2.Enabled = false;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(69, 140);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(289, 21);
-            this.comboBox2.TabIndex = 3;
+            this.comboBoxRegimeEmpresa.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.a10BindingSource, "A10_031_n", true));
+            this.comboBoxRegimeEmpresa.Enabled = false;
+            this.comboBoxRegimeEmpresa.FormattingEnabled = true;
+            this.comboBoxRegimeEmpresa.Location = new System.Drawing.Point(69, 140);
+            this.comboBoxRegimeEmpresa.Name = "comboBoxRegimeEmpresa";
+            this.comboBoxRegimeEmpresa.Size = new System.Drawing.Size(289, 21);
+            this.comboBoxRegimeEmpresa.TabIndex = 3;
             // 
             // labelRegime
             // 
@@ -817,13 +845,14 @@
             this.labelRegime.TabIndex = 8;
             this.labelRegime.Text = "Regime:";
             // 
-            // textBox4
+            // textBoxPastaNfe
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(69, 112);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(289, 20);
-            this.textBox4.TabIndex = 2;
+            this.textBoxPastaNfe.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.a10BindingSource, "A10_022_c", true));
+            this.textBoxPastaNfe.Enabled = false;
+            this.textBoxPastaNfe.Location = new System.Drawing.Point(69, 112);
+            this.textBoxPastaNfe.Name = "textBoxPastaNfe";
+            this.textBoxPastaNfe.Size = new System.Drawing.Size(289, 20);
+            this.textBoxPastaNfe.TabIndex = 2;
             // 
             // labelPastaNfe
             // 
@@ -848,6 +877,7 @@
             // radioButtonProducao
             // 
             this.radioButtonProducao.AutoSize = true;
+            this.radioButtonProducao.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.a10BindingSource, "A10_018_n", true));
             this.radioButtonProducao.Enabled = false;
             this.radioButtonProducao.Location = new System.Drawing.Point(6, 19);
             this.radioButtonProducao.Name = "radioButtonProducao";
@@ -860,6 +890,7 @@
             // radioButtonHomologacao
             // 
             this.radioButtonHomologacao.AutoSize = true;
+            this.radioButtonHomologacao.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.a10BindingSource, "A10_018_n", true));
             this.radioButtonHomologacao.Enabled = false;
             this.radioButtonHomologacao.Location = new System.Drawing.Point(6, 42);
             this.radioButtonHomologacao.Name = "radioButtonHomologacao";
@@ -872,6 +903,7 @@
             // checkBox1GeraNfeAutomatico
             // 
             this.checkBox1GeraNfeAutomatico.AutoSize = true;
+            this.checkBox1GeraNfeAutomatico.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.a10BindingSource, "A10_028_n", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null, "N1"));
             this.checkBox1GeraNfeAutomatico.Enabled = false;
             this.checkBox1GeraNfeAutomatico.Location = new System.Drawing.Point(239, 7);
             this.checkBox1GeraNfeAutomatico.Name = "checkBox1GeraNfeAutomatico";
@@ -880,14 +912,15 @@
             this.checkBox1GeraNfeAutomatico.Text = "Gera NF-e ao Gravar";
             this.checkBox1GeraNfeAutomatico.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // comboBoxTipoNfe
             // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(63, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(140, 21);
-            this.comboBox1.TabIndex = 0;
+            this.comboBoxTipoNfe.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.a10BindingSource, "A10_025_n", true));
+            this.comboBoxTipoNfe.Enabled = false;
+            this.comboBoxTipoNfe.FormattingEnabled = true;
+            this.comboBoxTipoNfe.Location = new System.Drawing.Point(63, 3);
+            this.comboBoxTipoNfe.Name = "comboBoxTipoNfe";
+            this.comboBoxTipoNfe.Size = new System.Drawing.Size(140, 21);
+            this.comboBoxTipoNfe.TabIndex = 0;
             // 
             // labelTipoEmissaoNfe
             // 
@@ -913,6 +946,7 @@
             // checkBoxFechaCaixa
             // 
             this.checkBoxFechaCaixa.AutoSize = true;
+            this.checkBoxFechaCaixa.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.a10BindingSource, "A10_027_n", true));
             this.checkBoxFechaCaixa.Enabled = false;
             this.checkBoxFechaCaixa.Location = new System.Drawing.Point(6, 29);
             this.checkBoxFechaCaixa.Name = "checkBoxFechaCaixa";
@@ -924,6 +958,7 @@
             // checkBoxNumeracaoPedido
             // 
             this.checkBoxNumeracaoPedido.AutoSize = true;
+            this.checkBoxNumeracaoPedido.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.a10BindingSource, "A10_029_n", true));
             this.checkBoxNumeracaoPedido.Enabled = false;
             this.checkBoxNumeracaoPedido.Location = new System.Drawing.Point(6, 6);
             this.checkBoxNumeracaoPedido.Name = "checkBoxNumeracaoPedido";
@@ -932,6 +967,10 @@
             this.checkBoxNumeracaoPedido.Text = "Numeração de Pedido Simples";
             this.checkBoxNumeracaoPedido.UseVisualStyleBackColor = true;
             // 
+            // a10BindingSource
+            // 
+            this.a10BindingSource.DataSource = typeof(Repositorio.Entidades.A10);
+            // 
             // FormA10Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -939,6 +978,7 @@
             this.Controls.Add(this.tabControlDadosGeral);
             this.Name = "FormA10Cadastro";
             this.Text = "A10 - Cadastreo de Empresa";
+            this.Load += new System.EventHandler(this.FormA10Cadastro_Load);
             this.Controls.SetChildIndex(this.panelControles, 0);
             this.Controls.SetChildIndex(this.panelNavegacao, 0);
             this.Controls.SetChildIndex(this.textBoxControles, 0);
@@ -951,15 +991,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.tabPageDadosNfe.ResumeLayout(false);
             this.tabPageDadosNfe.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTetoInss)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownJuros)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSest)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBaseInss)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCsosn)).EndInit();
             this.groupBoxEmissaoNFE.ResumeLayout(false);
             this.groupBoxEmissaoNFE.PerformLayout();
             this.tabPageParametros.ResumeLayout(false);
             this.tabPageParametros.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.a10BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1000,9 +1041,9 @@
         private System.Windows.Forms.TabPage tabPageDadosNfe;
         private System.Windows.Forms.TextBox textBoxLogradouro;
         private System.Windows.Forms.TextBox textBoxNumero;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBoxSite;
+        private System.Windows.Forms.TextBox textBoxcontador;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxComplemento;
         private System.Windows.Forms.TextBox textBoxBairro;
         private System.Windows.Forms.TextBox textBoxUf;
@@ -1017,32 +1058,33 @@
         private System.Windows.Forms.Button buttonImagem;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxCnpj;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxIncricao;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxFone;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxCelular;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxFax;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxFonecontador;
+        private System.Windows.Forms.NumericUpDown numericUpDownCsosn;
         private System.Windows.Forms.Label labelCsosn;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxRegimeEmpresa;
         private System.Windows.Forms.Label labelRegime;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxPastaNfe;
         private System.Windows.Forms.Label labelPastaNfe;
         private System.Windows.Forms.GroupBox groupBoxEmissaoNFE;
         private System.Windows.Forms.RadioButton radioButtonProducao;
         private System.Windows.Forms.RadioButton radioButtonHomologacao;
         private System.Windows.Forms.CheckBox checkBox1GeraNfeAutomatico;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxTipoNfe;
         private System.Windows.Forms.Label labelTipoEmissaoNfe;
         private System.Windows.Forms.TabPage tabPageParametros;
         private System.Windows.Forms.CheckBox checkBoxFechaCaixa;
         private System.Windows.Forms.CheckBox checkBoxNumeracaoPedido;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDownSest;
         private System.Windows.Forms.Label labelCest;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDownBaseInss;
         private System.Windows.Forms.Label labelBaseInss;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numericUpDownJuros;
         private System.Windows.Forms.Label labelJuros;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown numericUpDownTetoInss;
         private System.Windows.Forms.Label labelBaseMaximaInss;
+        private System.Windows.Forms.BindingSource a10BindingSource;
     }
 }
